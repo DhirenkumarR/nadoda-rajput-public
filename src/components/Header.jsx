@@ -18,7 +18,7 @@ export default function Header({
         <div className="brand-wrapper">
           <div className="brand-logo-ring">
             <img
-              src="/nododa_rajput.png"
+              src={`${import.meta.env.BASE_URL}nododa_rajput.png`}
               alt="નાડોદા રાજપૂત"
               className="brand-logo-img"
             />
